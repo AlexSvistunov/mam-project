@@ -48,7 +48,7 @@
 
 .history__list-item::before {
     position: absolute;
-    top: 5px    ;
+    top: 5px;
     left: 0;
     content: "";
     width: 8px;
