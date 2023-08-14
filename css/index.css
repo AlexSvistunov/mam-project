@@ -1,0 +1,9 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import 'variables.css';
+@import 'overall.css';
+
+
+@import '../css/components/header.css';
+@import '../css/components/news.css';
+@import '../css/components/history.css';

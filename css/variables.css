@@ -1,0 +1,11 @@
+:root {
+	--white: #fff;
+    --accent: #133d8d;
+    --red: #bd0007;
+
+
+    --background-properties: center/cover no-repeat;
+
+    --section-gap: 150px;
+}
+

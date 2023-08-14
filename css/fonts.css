@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400; /* Roman (обычный) */
+    src: url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 500; /* Medium */
+    src: url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700; /* Bold */
+    src: url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300; /* Light */
+    src: url('../fonts/HelveticaNeueCyr-Light.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900; /* Heavy */
+    src: url('../fonts/HelveticaNeueCyr-Heavy.woff2') format('woff2'),
+         url('../fonts/HelveticaNeueCyr-Heavy.woff') format('woff');
+  }
