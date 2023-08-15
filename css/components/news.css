@@ -81,3 +81,25 @@
 }
 
 
+@media(max-width: 950px) {
+    .news__cards {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .news__card {
+        grid-column: 4 span;
+    }
+
+}
+
+@media(max-width: 544px) {
+    .news__cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .news__card {
+        grid-column: 4 span;
+    }
+
+}
+

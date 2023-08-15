@@ -55,3 +55,46 @@
     height: 8px;
     background-color: #fff;
 }
+
+@media (max-width: 1440px) {
+    .history__right img {
+        display: none;
+    }
+
+    .history__body {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 0;
+    }
+
+    .history__left {
+        grid-column: 6 span;
+    }
+
+    .history__right {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .history {
+        padding: 60px 0 35px;
+        gap: 20px;
+    }
+
+    .history__right {
+        padding-top: 0px;
+    }
+}
+
+
+@media (max-width: 544px) {
+    .history__body {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+    }
+
+    .history__left {
+        grid-column: 4 span;
+        
+    }
+}

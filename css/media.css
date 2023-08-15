@@ -1,0 +1,23 @@
+
+@media(max-width: 768px) {
+    :root {
+        --section-gap: 70px;
+    }
+
+    .news__block,
+    .pub__block,
+    .projects__block {
+        margin-bottom: 35px;
+
+}
+
+}
+
+@media(max-width: 544px) {
+    .section__title-block {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+   
+}

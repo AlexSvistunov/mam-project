@@ -71,3 +71,35 @@
     inset: 0;
     z-index: 2;
 }
+
+
+@media (max-width: 900px) {
+    .pub__article {
+        grid-column: 4 span;
+    }
+
+    .pub__article-img {
+        margin-bottom: 12px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .pub__articles {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .pub__article-date {
+        margin-bottom: 10px;
+    }
+
+    .pub__article-title {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 544px) {
+    .pub__articles {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
