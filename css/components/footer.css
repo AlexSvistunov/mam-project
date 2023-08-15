@@ -63,3 +63,32 @@
 
 
 
+@media (max-width: 768px) {
+    .footer {
+        padding: 35px 0 40px;
+    }
+    
+    .footer__columns {
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .footer__column {
+        grid-column: 4 span;
+    }
+
+    .footer__column--last {
+        text-align: start;
+    }
+    
+}
+
+@media (max-width: 544px) {
+    .footer__columns {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer__column--last a {
+        padding: 0;
+    }
+
+}
