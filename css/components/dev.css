@@ -66,3 +66,53 @@
 .dev__btn--right {
     right: 0;
 }
+
+
+@media (max-width: 1400px) {
+    .dev__img {
+        flex-shrink: 0;
+    }
+    
+}
+
+@media (max-width: 1070px) {
+   .dev__body  {
+        flex-direction: column;
+   }
+
+   .dev__content {
+        max-width: 100%;
+        margin-bottom: 35px;
+        margin-right: 0;
+   }
+
+   .dev__img img {
+        margin: 0 auto;
+   }
+    
+}
+
+@media (max-width: 600px) {
+    .dev__img img {
+        margin: 0;
+   }
+
+   .dev__body {
+        padding: 30px;
+   }
+
+}
+
+@media (max-width: 470px) {
+    .dev__img {
+        display: none;
+    }
+
+    .dev__item {
+        padding-left: 15px;
+    }
+
+    .dev__item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+}

@@ -1,6 +1,6 @@
 .header {
     background: var(--background-properties) url('../images/header-main__img.jpg');
-    min-height: 100vh;
+    /* min-height: 100vh; */
     
 }
 
