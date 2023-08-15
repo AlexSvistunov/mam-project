@@ -1,0 +1,68 @@
+.dev {
+   padding: var(--section-gap) 0;
+}
+
+.dev__body {
+    display: flex;
+    background: rgba(19, 61, 141, 0.15);
+    padding: 60px;
+}
+
+.dev__content {
+    max-width: 387px;
+    margin-right: 60px;
+
+}
+
+.dev__button {
+    padding: 8px 12px 5px 12px;
+    background-color: var(--accent);
+    margin-bottom: 40px;
+    color: var(--white);
+}
+
+.dev__title {
+    font-family: HelveticaNeueCyr;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.dev__item {
+    padding-left: 29px;
+    position: relative;
+    color: #000;
+}
+
+.dev__item::before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: var(--red);
+    top: 5px;
+    left: 0;
+}
+
+.dev__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+.dev__btn {
+    position: absolute;
+    
+}
+
+.dev__btn--left {
+    left: 0;
+}
+
+.dev__btn--right {
+    right: 0;
+}

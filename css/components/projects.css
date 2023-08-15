@@ -8,6 +8,10 @@
     margin-bottom: 85px;
 }
 
+.projects__link {
+    color: #fff;
+}
+
 .projects__block-right {
     display: flex;
     align-items: center;
